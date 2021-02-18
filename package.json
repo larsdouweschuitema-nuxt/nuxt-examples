@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": [
+    "examples/*"
+  ],
+  "scripts": {
+    "dev:examples": "concurrently \"npm run dev --prefix examples/nuxt-app\" \"npm run dev --prefix examples/nuxt-app\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "engines": {
+    "node": "^14.15.5",
+    "npm": "^6.14.11",
+    "yarn": "please-use-npm"
+  }
+}

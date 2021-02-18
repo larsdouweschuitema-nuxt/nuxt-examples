@@ -1,0 +1,12 @@
+# Dependencies
+node_modules
+
+# Logs
+*.log
+
+# Other
+.nuxt
+
+# Only keep package-lock.json in the root
+yarn.lock
+*/**/package-lock.json
